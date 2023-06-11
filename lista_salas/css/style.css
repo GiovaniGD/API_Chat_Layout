@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Exo+2:wght@200&family=Glass+Antiqua&family=IM+Fell+Great+Primer+SC&family=Inria+Sans:wght@300&family=Jockey+One&family=Kadwa&family=League+Spartan:wght@200&family=Oswald&family=Righteous&family=Sawarabi+Gothic&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(49, 49, 49);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+  }
+  
+  body{
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    background-image: url('../imagens/17e0ac80df1f57fb2c23ddf9bb2b55ac.jpg');
+    background-size: cover;
+  }
+
+  .container{
+    max-width: 35rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #A8AEB2;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul.lista-chat{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  
+  li.chat-sala{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .textos-sala{
+    flex: 1;
+  }
+  
+  .nome-sala{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sala-descricao{
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn-entrar{
+    padding: 0.5rem 1rem;
+    background-color: #2f64cd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.35rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-entrar:hover{
+    background-color: #517fd9;
+  }
+  
