@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Exo+2:wght@200&family=Glass+Antiqua&family=IM+Fell+Great+Primer+SC&family=Inria+Sans:wght@300&family=Jockey+One&family=Kadwa&family=League+Spartan:wght@200&family=Oswald&family=Righteous&family=Sawarabi+Gothic&family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(49, 49, 49);
+  font-family: "Exo 2", sans-serif;
+  font-weight: bolder;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.9rem;
+  background-image: url("../imagens/17e0ac80df1f57fb2c23ddf9bb2b55ac.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 35rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #a8aeb2;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 3rem;
+}
+
+.campo-entrada {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-weight: 800;
+  box-shadow: 0 0.1rem  0.2rem solid black;
+}
+
+.campo-entrada:focus {
+    outline: #a8aeb2;
+}
+
+.botao-cadastrar {
+  padding: 0.6rem 0.9rem;
+  background-color: #3169da;
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-left: 25.55rem;
+  text-decoration: none;
+}
+
+.botao-cadastrar:hover {
+    background-color: #517fd9;
+}
